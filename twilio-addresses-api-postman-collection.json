@@ -1,0 +1,82 @@
+{
+    "id": "6344e9ce9203c36190000f940e0d328b",
+    "name": "Twilio Addresses API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "ce4bab0064ac2e90d9eac36778d2dcd9",
+            "name": "Get Address",
+            "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Addresses\/{AddressSid}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6344e9ce9203c36190000f940e0d328b",
+            "rawModeData": ""
+        },
+        {
+            "id": "9aaa564f54bcc5d34318052f46b4d573",
+            "name": "Get Address",
+            "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Address",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6344e9ce9203c36190000f940e0d328b",
+            "rawModeData": ""
+        },
+        {
+            "id": "2f40d7f3306e8a879c79d92efb955b8f",
+            "name": "Get Address",
+            "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Addresses\/{AddressSid}\/DependentPhoneNumbers",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6344e9ce9203c36190000f940e0d328b",
+            "rawModeData": ""
+        }
+    ]
+}
