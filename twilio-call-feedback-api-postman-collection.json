@@ -1,0 +1,105 @@
+{
+    "id": "8249e80af161e6970c1990f3f6181dd0",
+    "name": "Twilio Call Feedback API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "d49fe7d8329b5b1f4c87062758b45bd3",
+            "name": "",
+            "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Calls\/{CallSid}\/Feedback",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8249e80af161e6970c1990f3f6181dd0",
+            "rawModeData": ""
+        },
+        {
+            "id": "65e112317600d5979057dacc1b80cbcd",
+            "name": "",
+            "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Calls\/FeedbackSummary",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8249e80af161e6970c1990f3f6181dd0",
+            "rawModeData": ""
+        },
+        {
+            "id": "e4232c5f57739f84a0ff2ca251cefeb3",
+            "name": "",
+            "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Calls\/FeedbackSummary\/{FeedbackSummarySid}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8249e80af161e6970c1990f3f6181dd0",
+            "rawModeData": ""
+        },
+        {
+            "id": "114ba103f5c29a4d8d0b9431e368d2d4",
+            "name": "",
+            "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Calls\/FeedbackSummary\/{FeedbackSummarySid}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "8249e80af161e6970c1990f3f6181dd0",
+            "rawModeData": ""
+        }
+    ]
+}
