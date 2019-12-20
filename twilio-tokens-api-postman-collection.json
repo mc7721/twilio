@@ -1,0 +1,36 @@
+{
+    "id": "aff6a24211b201283a4a3d89881f461e",
+    "name": "Twilio Tokens API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "dfe050f9a724110215f7b4bc1808e07a",
+            "name": "\/Tokense",
+            "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Tokens",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "aff6a24211b201283a4a3d89881f461e",
+            "rawModeData": ""
+        }
+    ]
+}
