@@ -1,0 +1,471 @@
+{
+    "name": "Twilio",
+    "description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/143-twilio.jpg",
+    "tags": [
+        "api lifeycle",
+        "getting started example",
+        "have api",
+        "have swagger",
+        "messages",
+        "relative data",
+        "service api",
+        "service level agreement",
+        "streams",
+        "telecommunications",
+        "webhook implementations"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Twilio Usage API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/143-twilio.jpg",
+            "humanURL": "http:\/\/stackoverflow.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-usage-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/twilio-usage-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-usage-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Twilio",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/143-twilio.jpg",
+            "humanURL": "http:\/\/stackoverflow.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/twilio.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Twilio Tokens API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/143-twilio.jpg",
+            "humanURL": "http:\/\/stackoverflow.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-tokens-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/twilio-tokens-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-tokens-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Twilio Addresses API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/143-twilio.jpg",
+            "humanURL": "http:\/\/stackoverflow.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-addresses-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/twilio-addresses-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-addresses-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Twilio Call Feedback API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/143-twilio.jpg",
+            "humanURL": "http:\/\/stackoverflow.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-call-feedback-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/twilio-call-feedback-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-call-feedback-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Twilio Recordings API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/143-twilio.jpg",
+            "humanURL": "http:\/\/stackoverflow.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-recordings-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/twilio-recordings-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-recordings-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Twilio Messaging API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/143-twilio.jpg",
+            "humanURL": "http:\/\/stackoverflow.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-messaging-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/twilio-messaging-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-messaging-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Twilio SIP Credential Lists API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/143-twilio.jpg",
+            "humanURL": "http:\/\/stackoverflow.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-sip-credential-lists-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/twilio-sip-credential-lists-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-sip-credential-lists-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": ".NET Library",
+            "url": "https:\/\/www.twilio.com\/docs\/csharp\/install"
+        },
+        {
+            "type": "Acceptable Use Policy",
+            "url": "https:\/\/www.twilio.com\/legal\/aup"
+        },
+        {
+            "type": "Application Gallery",
+            "url": "https:\/\/www.twilio.com\/showcase"
+        },
+        {
+            "type": "Base URL",
+            "url": "https:\/\/api.twilio.com"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.twilio.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/www.twilio.com\/blog\/feed"
+        },
+        {
+            "type": "Community Supported Libraries",
+            "url": "https:\/\/www.twilio.com\/docs\/libraries"
+        },
+        {
+            "type": "Contact Form",
+            "url": "https:\/\/www.twilio.com\/help\/contact"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/twilio"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/twilio"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/www.twilio.com\/docs\/api"
+        },
+        {
+            "type": "Email",
+            "url": "help@twilio.com"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@twilio.com"
+        },
+        {
+            "type": "Email",
+            "url": "legalnotices@twilio.com"
+        },
+        {
+            "type": "Email",
+            "url": "trademark@twilio.com"
+        },
+        {
+            "type": "Email",
+            "url": "kyleky@twilio.com"
+        },
+        {
+            "type": "Getting Started",
+            "url": "https:\/\/www.twilio.com\/docs\/quickstart"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/twilio"
+        },
+        {
+            "type": "How To Guides",
+            "url": "https:\/\/www.twilio.com\/docs\/howto"
+        },
+        {
+            "type": "Java Library",
+            "url": "https:\/\/www.twilio.com\/docs\/java\/install"
+        },
+        {
+            "type": "Node.js Library",
+            "url": "https:\/\/www.twilio.com\/docs\/node\/install"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-04-02-26-05.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-21-36-52.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-21-10-15.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-21-10-22.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-21-11-34.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-21-11-40.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-17-29-06.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-15-42-04.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-15-42-24.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-15-42-35.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-15-42-45.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-15-42-54.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-15-43-04.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-15-43-13.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-15-44-35.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-15-45-12.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-22-03-31.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-22-03-37.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-04-02-51-49.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-13-30-35.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/143-2019-09-03-13-30-41.json"
+        },
+        {
+            "type": "Paid Support",
+            "url": "https:\/\/www.twilio.com\/premium-support#features"
+        },
+        {
+            "type": "Partners",
+            "url": "https:\/\/www.twilio.com\/partners"
+        },
+        {
+            "type": "PHP Library",
+            "url": "https:\/\/www.twilio.com\/docs\/php\/install"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.twilio.com\/pricing"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.twilio.com\/pricing"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.twilio.com\/pricing"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.twilio.com\/pricing"
+        },
+        {
+            "type": "Privacy",
+            "url": "https:\/\/www.twilio.com\/legal\/privacy"
+        },
+        {
+            "type": "Python Library",
+            "url": "https:\/\/www.twilio.com\/docs\/python\/install"
+        },
+        {
+            "type": "Ruby Library",
+            "url": "https:\/\/www.twilio.com\/docs\/ruby\/install"
+        },
+        {
+            "type": "SalesForce PDK",
+            "url": "https:\/\/www.twilio.com\/docs\/salesforce\/install"
+        },
+        {
+            "type": "Security",
+            "url": "https:\/\/www.twilio.com\/docs\/security"
+        },
+        {
+            "type": "Service Level Agreement",
+            "url": "https:\/\/www.twilio.com\/legal\/service-level-agreement"
+        },
+        {
+            "type": "Stack Overflow",
+            "url": "http:\/\/stackoverflow.com\/questions\/tagged\/twilio"
+        },
+        {
+            "type": "Status",
+            "url": "http:\/\/status.twilio.com\/"
+        },
+        {
+            "type": "Status RSS",
+            "url": "http:\/\/status.twilio.com\/rss"
+        },
+        {
+            "type": "Terms Of Service",
+            "url": "https:\/\/www.twilio.com\/legal\/tos"
+        },
+        {
+            "type": "Trademarks",
+            "url": "https:\/\/www.twilio.com\/legal\/trademark"
+        },
+        {
+            "type": "Transparency Report",
+            "url": "https:\/\/www.twilio.com\/blog\/2015\/07\/transparency-report-for-government-requests-for-customer-information.html"
+        },
+        {
+            "type": "Transparency Report",
+            "url": "https:\/\/www.twilio.com\/legal\/transparency"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/twilio"
+        },
+        {
+            "type": "Webhooks",
+            "url": "https:\/\/www.twilio.com\/docs\/glossary\/what-is-a-webhook"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.twilio.com"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/twilio.com"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/stackoverflow.com"
+        }
+    ]
+}
