@@ -1,0 +1,4309 @@
+{
+    "id": "0db0410f32a45f573369c9d35e2fadaa",
+    "name": "Twilio",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "8f590c49a86e415d540144b282f0c882",
+            "name": "Get Acount",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}.{format}",
+            "description": "Get Account",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "29f60d27342bd084d176cf7833259b41",
+            "name": "Add Account",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}.{format}",
+            "description": "Add Account",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "d6096999a3dd1460bd45eca79fbe7178",
+            "name": "Update Account",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}.{format}",
+            "description": "Update Account",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "0d7cb08426a4be835c589f71d505be8e",
+            "name": "Get Accounts",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts.{format}",
+            "description": "Get Accounts",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "a71076641a28bf078108e36677e10e7e",
+            "name": "Delete Application",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications\/{ApplicationSid}.{format}",
+            "description": "Delete Application",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ApplicationSid",
+                    "description": "The ID for the Twilio application.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "2de54a86897177f07ac032d4497d4a7b",
+            "name": "Get Application",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications\/{ApplicationSid}.{format}",
+            "description": "Get application instance resource.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ApplicationSid",
+                    "description": "The ID for the Twilio application.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "caf35a7a0db3cf4e75c167591f78dbb8",
+            "name": "Add Application",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications\/{ApplicationSid}.{format}",
+            "description": "Tries to update the applications properties, and returns the updatednresource representation if successful. The returned response is identicalnto that returned above when making a GET request.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ApplicationSid",
+                    "description": "The ID for the Twilio application.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "1dadc6f966a88847dcf6cf016fa87180",
+            "name": "Get Applications",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications.{format}",
+            "description": "Get Applications",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "67564580bdae9968674b04f4e2fb240e",
+            "name": "Add Applications",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications.{format}",
+            "description": "Add Applications",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "34ae41c0ed2c46a934c08de726a15105",
+            "name": "Get Authorized Connected App",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AuthorizedConnectApps\/{ConnectAppSid}.{format}",
+            "description": "Get the properties of the authorized application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ConnectAppSid",
+                    "description": "A 34 character string that uniquely identifies the connected app",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "68ee17bea40f8c32ed528642ae8870ea",
+            "name": "Get Authorized Connected Apps",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AuthorizedConnectApps.{format}",
+            "description": "Returns a list of Connect App resource representations, each representing anConnect App youve authorized to access your account. The list includesnpaging information.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "f9dc50eed5c0d5872f20c4ffa776e3cc",
+            "name": "Get Available Local Phone Numbers",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AvailablePhoneNumbers\/{IsoCountryCode}\/Local.{format}",
+            "description": "Returns a list of local AvailablePhoneNumber resource representationsnthat match the specified filters, each representing a phone number thanis currently available for provisioning within your account.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IsoCountryCode",
+                    "description": "ISO 3166-1 alpha-2.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "e727faf74bb9b58ca27a167d64f67b2b",
+            "name": "Get Available Mobile Phone Numbers",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AvailablePhoneNumbers\/{IsoCountryCode}\/Mobile.{format}",
+            "description": "Returns a list of mobile AvailablePhoneNumber resource representations that match the specified filters, each representing a phone number that is currently available for provisioning within your account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IsoCountryCode",
+                    "description": "ISO 3166-1 alpha-2.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "a87b7528394a6c1fc0b749321a42689b",
+            "name": "Get Available Toll Free Phone Numbers",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AvailablePhoneNumbers\/{IsoCountryCode}\/TollFree.{format}",
+            "description": "Returns a list of toll-free AvailablePhoneNumber elements that match thenspecified filters, each representing a phone number that is currentlynavailable for provisioning within your account. To provision an availablenphone number, POST the number to the IncomingPhoneNumbers resource.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IsoCountryCode",
+                    "description": "ISO 3166-1 alpha-2.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "35c346d84ea8feac665ac9bac4413c53",
+            "name": "Get Recordings",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Calls\/{CallSid}\/Recordings.{format}",
+            "description": "Returns a list of Recording resource representations, each representing anrecording generated during the course of a phone call.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CallSid",
+                    "description": "A 34 character string that uniquely identifies the call.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "af6454b632b33aad2b553641b955ea43",
+            "name": "Get Call",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Calls\/{CallSid}.{format}",
+            "description": "Get Call",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CallSid",
+                    "description": "A 34 character string that uniquely identifies the call.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "596a7b0ab1206b692b450c271151f5fe",
+            "name": "Get Calls",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Calls.{format}",
+            "description": "Get Calls",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "78879a2f9e025d2f411c0720fae427e7",
+            "name": "Make Call",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Calls.{format}",
+            "description": "To make a call, make an HTTP POST request. Initiate a new phone call.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "93915a680c00a1f1c4b288fa29e6a144",
+            "name": "Delete Conference Call Participants",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}\/Participants\/{CallSid}.{format}",
+            "description": "Kick this participant from the conference.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CallSid",
+                    "description": "A 34 character string that uniquely identifies the call.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ConferenceSid",
+                    "description": "A 34 character string that uniquely identifies the conference call object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "ceb54593a5e52094ed84206d789b15f7",
+            "name": "Add Conference Call Participants",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}\/Participants\/{CallSid}.{format}",
+            "description": "Updates the status of a participant.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CallSid",
+                    "description": "A 34 character string that uniquely identifies the call.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ConferenceSid",
+                    "description": "A 34 character string that uniquely identifies the conference call object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "4ee94cc399c94c37d706f841f7a3c132",
+            "name": "GetParticipantForConference",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}\/Participants\/{CallSid}.{format}",
+            "description": "GetParticipantForConference",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CallSid",
+                    "description": "A 34 character string that uniquely identifies the call.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ConferenceSid",
+                    "description": "A 34 character string that uniquely identifies the conference call object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "c63224944855b16b259b6a1ad53902ed",
+            "name": "Get Conference Call Participants",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}\/Participants.{format}",
+            "description": "Returns the list of participants in the conference identified byn{ConferenceSid}.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ConferenceSid",
+                    "description": "A 34 character string that uniquely identifies the conference call object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "7aab6aa2e3a527812113790adccd02af",
+            "name": "Get Conference Calls",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences.{format}",
+            "description": "Returns a list of conferences within an account. The list includes pagingninformation.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "59f59524a78085c09a2262b6fefc43b1",
+            "name": "Get Conference",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}.{format}",
+            "description": "Get Conference",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ConferenceSid",
+                    "description": "A 34 character string that uniquely identifies the conference call object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "ad2441b438882f295f23530a571b1356",
+            "name": "Get Connected App",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/ConnectApps\/{ConnectAppSid}.{format}",
+            "description": "Get the properties of a Connect App.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ConnectAppSid",
+                    "description": "A 34 character string that uniquely identifies the connected app",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "35f6aaee0c3fb6c9643d1636e637316f",
+            "name": "Add Connected App",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/ConnectApps\/{ConnectAppSid}.{format}",
+            "description": "Tries to update the Connect Apps properties, and returns the updatednresource representation if successful. The returned response is identicalnto that returned above when making a GET request.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ConnectAppSid",
+                    "description": "A 34 character string that uniquely identifies the connected app",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "d9582766fedef6c0e92d463be824a152",
+            "name": "Get Connected Apps",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/ConnectApps.{format}",
+            "description": "Returns a list of Connect App resource representations, each representingna Connect App in your account. The list includes paging information.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "2960c422126e8c464e5267be2611ee21",
+            "name": "Get Incoming Local Phone Numbers",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/Local.{format}",
+            "description": "Returns a list of local <IncomingPhoneNumber> elements, each representing a local (not toll-free) phone number given to your account, under an <IncomingPhoneNumbers> list element that includes paging information. Works exactly the same as the IncomingPhoneNumber resource, but filters out toll-free numbers.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "d6d45355bb2de92c49d2510c8be7d4d2",
+            "name": "Add Incoming Local Phone Numbers",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/Local.{format}",
+            "description": "Adds a new phone number to your account. If a phone number is found for your request, Twilio will add it to your account and bill you for the first months cost of the phone number. ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "fcc7bd968bd17d0118d38a9f1ed24776",
+            "name": "Get Incoming Phone Numbers",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/Mobile.{format}",
+            "description": "Returns a list of local <IncomingPhoneNumber> elements, each representing a mobile phone number given to your account, under an <IncomingPhoneNumbers> list element that includes paging information. Works exactly the same as the IncomingPhoneNumber resource, but filters out local and toll free numbers.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "13e7aa0a9ab894d95a0926257318cf76",
+            "name": "Delete Incoming Phone Number",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/{IncomingPhoneNumberSid}.{format}",
+            "description": "Release this phone number from your account. Twilio will no longer answerncalls to this number, and you will stop being billed the monthly phonennumber fee. The phone number will eventually be recycled and potentiallyngiven to another customer, so use with care. If you make a mistake, contacnus. We may be able to give you the number back.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IncomingPhoneNumberSid",
+                    "description": "A 34 character string that uniquely identifies the incoming phone number.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "f75adcd253da0a722173140b4ba71f4b",
+            "name": "Get Incoming Phone Number",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/{IncomingPhoneNumberSid}.{format}",
+            "description": "Get info about incoming calls phone number.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IncomingPhoneNumberSid",
+                    "description": "A 34 character string that uniquely identifies the incoming phone number.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "c35477f02bfbaebebbf68385404f90f1",
+            "name": "Add Incoming Phone Number",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/{IncomingPhoneNumberSid}.{format}",
+            "description": "Tries to update the incoming phone numbers properties, and returns thenupdated resource representation if successful. The returned response isnidentical to that returned above when making a GET request.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IncomingPhoneNumberSid",
+                    "description": "A 34 character string that uniquely identifies the incoming phone number.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed82c7bc5796163ac732acba94960f65",
+            "name": "Update Incoming Phone Number",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/{IncomingPhoneNumberSid}.{format}",
+            "description": "Tries to update the incoming phone numbers properties, and returns thenupdated resource representation if successful. The returned response isnidentical to that returned above when making a GET request.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IncomingPhoneNumberSid",
+                    "description": "A 34 character string that uniquely identifies the incoming phone number.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "6bb3d07f511d4f3237dda09e87eec9c6",
+            "name": "Get Message Media",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}\/Media\/{MediaSid}",
+            "description": "Without an extension, the media is returned using the mime-type provided when the media was generated.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "MediaSid",
+                    "description": "A 34 character string that uniquely identifies the media object.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "MessageSid",
+                    "description": "A 34 character string that uniquely identifies the message.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "bd2cd0b7aa6e60c4553af700611c62e9",
+            "name": "Get Message Media",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}\/Media",
+            "description": "Returns a list of media associated with your message.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "MessageSid",
+                    "description": "A 34 character string that uniquely identifies the message.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "96042506ef34421959b2cdfb2e016fb3",
+            "name": "Get Message Media",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}",
+            "description": "Returns a single message specified by the provided {MessageSid}.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "MessageSid",
+                    "description": "A 34 character string that uniquely identifies the message.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "17d0ebdb6bc942bc6ae9678eb130dcd3",
+            "name": "Get Message Media",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages.{format}",
+            "description": "Returns a list of messages associated with your account. The list includes paging information.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "5c90625be67bcc2a953e8f2d63303981",
+            "name": "Add Message",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages.{format}",
+            "description": "To send a new outgoing message, make an HTTP POST to your Messages list resource URI",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "ff9450c18d1b4f6857b2d3162768ffb3",
+            "name": "Get Outgoing Caller Ids",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds\/{OutgoingCallerIdSid}",
+            "description": "Get the set of an accounts verified phone numbers.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "OutgoingCallerIdSid",
+                    "description": "A 34 character string that uniquely identifies the outgoing caller id.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f1daf73a3ef26019b2a88b627058d50",
+            "name": "Add Outgoing Caller Id",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds\/{OutgoingCallerIdSid}",
+            "description": "Updates the caller id, and returns the updated resource if successful.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "OutgoingCallerIdSid",
+                    "description": "A 34 character string that uniquely identifies the outgoing caller id.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "0c7404b35e6f2a0ab80d8f8b360e043f",
+            "name": "Update Outgoing Caller Id",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds\/{OutgoingCallerIdSid}",
+            "description": "Updates the caller id, and returns the updated resource if successful.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "OutgoingCallerIdSid",
+                    "description": "A 34 character string that uniquely identifies the outgoing caller id.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "f337f312daf2a9d9e47afbd47b36011f",
+            "name": "Delete Outgoing Caller ID",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds\/{OutgoingCallerIdSid}",
+            "description": "DeleteOutgoingCallerId",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "OutgoingCallerIdSid",
+                    "description": "A 34 character string that uniquely identifies the outgoing caller id.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "edfd67b9ddf43d9835f93439859f2032",
+            "name": "Get Outgoing Caller Ids",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds",
+            "description": "Returns a list of OutgoingCallerId resource representations, each representingna Caller ID number valid for an account. The list includes paging information.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "b920d6cbc5df2e301d68685fc2509ed5",
+            "name": "Add Outgoing Caller Id",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds",
+            "description": "Adds a new CallerID to your account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c51ec746d42271d24eccc09eb1ac521",
+            "name": "Get Queue Members In Front",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members\/Front",
+            "description": "Get a front member.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "QueueSid",
+                    "description": "A 34 character string that uniquely identifies the queue.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "f5418d6757c47af8695f8fa75edbb204",
+            "name": "Update Queue Members In Front",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members\/Front",
+            "description": "Posting a URL and Method to a Queue instance will dequeue a member from anqueue and have the members call begin executing the TwiML document at that URLnWhen dequeuing the Front of the queue, the next call in the queue will be redirected.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "QueueSid",
+                    "description": "A 34 character string that uniquely identifies the queue.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "f60cf426ed32ae76ef6a5cc75b6a8e97",
+            "name": "Get Queue Members",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members\/{CallSid}",
+            "description": "Get a specific member.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CallSid",
+                    "description": "A 34 character string that uniquely identifies the call.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "QueueSid",
+                    "description": "A 34 character string that uniquely identifies the queue.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "55e900397d9157361313fb5abc8fe19b",
+            "name": "Update Queue Members",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members\/{CallSid}",
+            "description": "Posting a URL and Method to a Queue instance will dequeue a member from anqueue and have the members call begin executing the TwiML document at that URLnWhen redirecting a member of a queue addressed by CallSid, only the first requestnwill succeed and return a 200 response code. A second request will fail andnreturn an appropriate 400 response code.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CallSid",
+                    "description": "A 34 character string that uniquely identifies the call.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "QueueSid",
+                    "description": "A 34 character string that uniquely identifies the queue.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "f9e0290e2459522effa0c0918ae82ff1",
+            "name": "Get Queue Members",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members",
+            "description": "Returns the list of members in the queue identified by {QueueSid}.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "QueueSid",
+                    "description": "A 34 character string that uniquely identifies the queue.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "ea74f4f154781b32ea1fe8fc71b8bfb8",
+            "name": "Delete Queue Members",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}",
+            "description": "The DELETE method allows you to remove a Queue. Only empty queues arendeletable.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "QueueSid",
+                    "description": "A 34 character string that uniquely identifies the queue.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "d728bf03363cd9836b53517874e62b6c",
+            "name": "Get Queue Members",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}",
+            "description": "Get resources individual Queue instance.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "QueueSid",
+                    "description": "A 34 character string that uniquely identifies the queue.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "2bb02835d3d890d049c295066b5a5dec",
+            "name": "Add Queue Members",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}",
+            "description": "This POST request allows you to change the FriendlyName or MaxSize.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "QueueSid",
+                    "description": "A 34 character string that uniquely identifies the queue.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "fd6241d1e820b10ebf789f5196758b99",
+            "name": "Get Queues",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues",
+            "description": "Returns a list of queues within an account. The list includes pagingninformation.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "3d4ddd894092f49ef10f633b8e66d4f6",
+            "name": "Add Queue",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues",
+            "description": "Create a new Queue resource.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "c2d02aa86720595f561166f66ae57533",
+            "name": "Get Recording Transcriptions",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Recordings\/{RecordingSid}\/Transcriptions",
+            "description": "Returns a set of Transcription resource representations that includes pagingninformation.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "RecordingSid",
+                    "description": "A 34 character string that uniquely identifies the recording.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "669d3e33a002a6aa2240764a6163dc6f",
+            "name": "Delete Recording",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Recordings\/{RecordingSid}",
+            "description": "Deletes a recording  from your account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "RecordingSid",
+                    "description": "A 34 character string that uniquely identifies the recording.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "7cb254c87c0b238a1729973535c8c2d5",
+            "name": "Get Recording",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Recordings\/{RecordingSid}",
+            "description": "Returns one of several representations:nWithout an extension, or with a .wav, a binary WAV audio file is returnednwith mime-type audio\/x-wav.nAppending .mp3 to the URI returns a binary MP3 audio file with mime-typentype audio\/mpeg.nAppending .xml to the URI returns a XML representation.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "RecordingSid",
+                    "description": "A 34 character string that uniquely identifies the recording.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "29dfa11fe838579025519ca08148dbdb",
+            "name": "Get Recordings",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Recordings",
+            "description": "Returns a list of Recording resource representations, each representing anrecording generated during the course of a phone call.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba9a6c1d044096af69dbf29f8b5c1af3",
+            "name": "Delete SIP Credential From List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials\/{CredentialSid}",
+            "description": "Remove a Credential from a CredentialList.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CLSid",
+                    "description": "A 34 character string that uniquely identifies the credential list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CredentialSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "c48aa1e3b6133e76927a88521aa604f8",
+            "name": "Get SIP Credentials List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials\/{CredentialSid}",
+            "description": "Get a specific Credential in a list. Though a password is stored for each username in your list, the password is not returned to protect your password. If you cannot remember your password, you will need to POST to this resource to update it.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CLSid",
+                    "description": "A 34 character string that uniquely identifies the credential list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CredentialSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "b33114e7e59b1eeb9daf0f161e88c698",
+            "name": "Add To SIP Credentials List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials\/{CredentialSid}",
+            "description": "Change the password of a Credential record.nnIf the change is successful, Twilio will respond with the Credential record but will not include the password in the response.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CLSid",
+                    "description": "A 34 character string that uniquely identifies the credential list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CredentialSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "33e5fb935ef6a73b9039b8d993254d1d",
+            "name": "Get SIP Credentials List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials",
+            "description": "Get the list of Credentials in a CredentialList. The passwords for the Credentials are intentionally not returned so as to protect them.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CLSid",
+                    "description": "A 34 character string that uniquely identifies the credential list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "dcec123b9ec9a46847b932ee3d94e5e4",
+            "name": "Get SIP Credentials List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials",
+            "description": "Add a Credential to the CredentialList.nnWhen creating a Credential, you will POST both a username and password, but only receive the username back in the response. The password is intentionally not returned so as to protect it.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CLSid",
+                    "description": "A 34 character string that uniquely identifies the credential list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "5cc4f35d5544e7d16fa3c0f9a0e84b5f",
+            "name": "Delete SIP Credential List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}",
+            "description": "Delete a CredentialList from your account. It can only be deleted if no domains are mapped to it. If you attempt to delete one that is mapped to a domain, you will receive an error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CLSid",
+                    "description": "A 34 character string that uniquely identifies the credential list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "8e0aada9d6485dd7c87b647499f9eb74",
+            "name": "Get SIP Credentials List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}",
+            "description": "Get a credential list instance resource",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CLSid",
+                    "description": "A 34 character string that uniquely identifies the credential list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "b42eab3266d5b8d499e84075b28d6d12",
+            "name": "Add SIP Credentials List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}",
+            "description": "Change the FriendlyName of the list",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CLSid",
+                    "description": "A 34 character string that uniquely identifies the credential list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "6aa5a9692c86e5725e1848e774d878f4",
+            "name": "Get SIP Credentials List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists",
+            "description": "Gets a list of Credential Lists for an account",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "dfd907dcf541c7c5951fd92f3c42fa51",
+            "name": "Get SIP Credentials List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists",
+            "description": "Create a new Credential List.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "2b6c6a25a5bdae85b03abe829424fcf0",
+            "name": "Delete Domains Credentials",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/CredentialListMappings\/{CLSid}",
+            "description": "Remove a CredentialListMapping from a domain",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "CLSid",
+                    "description": "A 34 character string that uniquely identifies the credential list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "f9cffd7d52fec539449db18274be16d9",
+            "name": "Get Domains Credentials",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/CredentialListMappings",
+            "description": "Get the user lists mapped to this domain.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "c80ce1f5c294713dcd6004c918f6beae",
+            "name": "Add Domains Credentials",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/CredentialListMappings",
+            "description": "Map a CredentialList to the domain.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "77865072ca530f6510e5fd86410bddbe",
+            "name": "Delete Domains Credentials",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/IpAccessControlListMappings\/{ALSid}",
+            "description": "Remove a mapping from this domain.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ALSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "d41aa2aebfa4b8720e07b268c8f77eaa",
+            "name": "Get Domains IP Access Control List Mappings",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/IpAccessControlListMappings\/{ALSid}",
+            "description": "Return a specific IpAccessControlListMapping instance by Sid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ALSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "80d50d22c8741f23a34a410263e8f666",
+            "name": "Get Domains IP Access Control List Mapping",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/IpAccessControlListMappings",
+            "description": "Return the IpAccessControlListMappings that are associated to this domain.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "f235299d68a994b06fe7314349983ce9",
+            "name": "Add Domains IP Access Control List Mappings",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/IpAccessControlListMappings",
+            "description": "Map an IpAccessControlList to this domain.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "a111369fe1c1b959664af98b4a2ac756",
+            "name": "Delete Domains IP Access Control List Mappings",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}",
+            "description": "Delete a domain. If you have created subdomains of a domain, you will not be able to delete the domain until you first delete all subdomains of it.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "cee93ece9a2fa6a43c4d975a12b284e6",
+            "name": "Get Domains",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}",
+            "description": "Return a specific instance by Sid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "4db3e9dbcd3bbb36babc50604ad94af7",
+            "name": "Add Domains",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}",
+            "description": "Update the attributes of a domain.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SipDomainSid",
+                    "description": "A 34 character string that uniquely identifies the SIP domain.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "29ce76601a3321bf103a143592670b8a",
+            "name": "Get Domains",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains",
+            "description": "Returns a paged list of the domains for an account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "d51dc0c8539d01e5691da594ec54b9d0",
+            "name": "Add Domains",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains",
+            "description": "Creates a new Domain and returns its instance resource. You must pick a unique domain name that ends in .sip.twilio.com.nAfter creating a Domain, you must map it to an authentication method before the domain is ready to receive traffic.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "4efcac11059df0d8944c8986595a0772",
+            "name": "Delete SIP IP Access Control List IP Address",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses\/{IpAddressSid}",
+            "description": "Deletes an IP address entry from the list.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAccessControlListSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAddressSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "99c4787bfb67bfada43072e264554d12",
+            "name": "Get SIP IP Access Control List IP Address",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses\/{IpAddressSid}",
+            "description": "Return a single IP Address resource.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAccessControlListSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAddressSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "b6d9d9282ce472feccc68cf704f0a3eb",
+            "name": "Add SIP IP Access Control List IP Address",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses\/{IpAddressSid}",
+            "description": "Change the description or IP address of a given IpAddress instance resource",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAccessControlListSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAddressSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "fa4d1e56b68f170412973f8e0e5c7a99",
+            "name": "Get SIP IP Access Control List IP Address",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses",
+            "description": "List the IP Addresses contained in this list.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAccessControlListSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "2a44481a73231368a6a379e8628a4dc2",
+            "name": "Add SIP IP Access Control List IP Address",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses",
+            "description": "Add an IP Address to the list with a description.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAccessControlListSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "0609d02bbac0eb62491ea48023d31f72",
+            "name": "Delete SIP IP Access Control List IP Address",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}",
+            "description": "Delete an IpAccessControlList from your account. It can only be deleted if no domains are mapped to it. If you attempt to delete one that is mapped to a domain, you will receive an error.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAccessControlListSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "a911adb1396d203bbf27fe1d8073eaf7",
+            "name": "Get SIP IP Access Control List IP Address",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}",
+            "description": "Return a specific IpAccessControlList resource.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAccessControlListSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "ec74269f0fb4f50558d1e78d7af5bbfe",
+            "name": "Add SIP IP Access Control List IP Address",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}",
+            "description": "Rename an IpAccessControlList.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "IpAccessControlListSid",
+                    "description": "A 34 character string that uniquely identifies the SIP IP access control list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c63cc354ee6f300cd9bd4712cc7c47e",
+            "name": "Get SIP IP Access Control List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists",
+            "description": "Return a paged list of all IpAccessControlLists under this account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "7f072d93e7e0436e07b4fb11b3a7fe5c",
+            "name": "Add SIP IP Access Control List",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists",
+            "description": "Create a new IpAccessControlList resource.nnWhen created, the list will contain no IP addresses. You will need to add IP addresses to the list for it to be active. To add IP addresses, you will need to POST to the IpAddresses List subresource.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "e8c4c0d5458668548e218b936e6ba34f",
+            "name": "Get SMS Short Code Media",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/ShortCodes\/{ShortCodeSid}",
+            "description": "Get a single message.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ShortCodeSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "7ca77bd2427156e2a48686b22162dbad",
+            "name": "Add SMS Short Code Media",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/ShortCodes\/{ShortCodeSid}",
+            "description": "Tries to update the shortcodes properties, and returns the updatednresource representation if successful.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ShortCodeSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "e219cdc7372fff8e14b574935f67adb0",
+            "name": "Get SMS Short Code Media",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/ShortCodes",
+            "description": "Returns a list of ShortCode resource representations, each representing anshort code within your account. The list includes paging information.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "fe14e4d01bdcad15060d80d486e3f13c",
+            "name": "GetSMSList",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/Messages.{format}",
+            "description": "GetSMSList",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "60f105d2ba1b807026f32a4f81fb60ce",
+            "name": "SendSMS",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/Messages.{format}",
+            "description": "SendSMS",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "a4d556ee0e58cae56b79e52605e62c8a",
+            "name": "GetSMS",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/Messages\/{SMSMessageSid}.{format}",
+            "description": "GetSMS",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "SMSMessageSid",
+                    "description": "A 34 character string that uniquely identifies the SMS short code.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "10e7e489e09f2fb54d9d81ef7c1eeb2d",
+            "name": "Delete Transcription",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions\/{TranscriptionSid}",
+            "description": "Deletes a transcription from your account.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "TranscriptionSid",
+                    "description": "A 34 character string that uniquely identifies the transcription.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "68ae83005b50ea09fdcecab12adc4fa4",
+            "name": "Get Transcription",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions\/{TranscriptionSid}",
+            "description": "Returns a single Transcription resource representation identified by thengiven {TranscriptionSid}. By default Twilio will respond with the XML metadata for the Transcription. If you append .txt to the end of the Transcription resources URI Twilio will just return you the transcription tex.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "TranscriptionSid",
+                    "description": "A 34 character string that uniquely identifies the transcription.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "77dfd267ec6d3744141ebd8c4d0e5b4f",
+            "name": "Get Transcriptions",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions",
+            "description": "Returns a set of Transcription resource representations that includes pagingninformation.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "9ec3a74c0d1d3e849bf8ff6809ba87c5",
+            "name": "GetTranscriptionList",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions.{format}",
+            "description": "GetTranscriptionList",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "84de4a65c523cf9fe6b59be07ef1fa3e",
+            "name": "GetTranscription",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions\/{TranscriptionSid}.{format}",
+            "description": "GetTranscription",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "TranscriptionSid",
+                    "description": "A 34 character string that uniquely identifies the transcription.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "dac47029a9d4922d92cd30e65290d7db",
+            "name": "Get Account Usage Record Sub Resource",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Records\/{Subresource}",
+            "description": "Returns UsageRecords for all usage categories for a specified period.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Subresource",
+                    "description": "|Subresource|Description|n|---|---|n|Daily|Return multiple UsageRecords for each usage category, each representing usage over a daily time-interval.|n|Monthly|Return multiple UsageRecords for each usage category, each representing usage over a monthly time-interval.|n|Yearly|Return multple UsageRecords for each usage category, each representing usage over a yearly time-interval.|n|AllTime|  Return a single UsageRecord for each usage category, each representing usage over the date-range specified",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "cce3c859e0ac86ba0b4cddc69c2de098",
+            "name": "Get Account Usage Record",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Records",
+            "description": "Returns UsageRecords for all usage categories. The list includes pagingninformation.nBy default, the UsageRecords resource will return one UsageRecord forneach Category, representing all usage accrued all-time for the account.nYou can filter the usage Category or change the date-range over which usagenis counted using optional GET query parameters.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5df597f77b4121513ce40197936c6be",
+            "name": "Delete Account Usage Trigger",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers\/{UsageTriggerSid}",
+            "description": "Delete this UsageTrigger.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "UsageTriggerSid",
+                    "description": "A 34 character string that uniquely identifies the usage trigger.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "f05331c2835d2a7fc4501f972ce31c00",
+            "name": "Get Account Usage Trigger",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers\/{UsageTriggerSid}",
+            "description": "Returns a repesentation of the UsageTrigger.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "UsageTriggerSid",
+                    "description": "A 34 character string that uniquely identifies the usage trigger.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "58f4636f077a5ac609200ae924eacb88",
+            "name": "Add Account Usage Trigger",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers\/{UsageTriggerSid}",
+            "description": "Tries to update the UsageTriggers properties, and returns the updatednresource representation if successful.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "UsageTriggerSid",
+                    "description": "A 34 character string that uniquely identifies the usage trigger.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "b31ffbed03fc9145f6bc3419957bae7d",
+            "name": "Get Account Usage Triggers",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers",
+            "description": "Returns a list of UsageTrigger resource representations. The list includesnpaging information.nBy default, all UsageTriggers are returned. You can filter the list bynspecifying one or more query parameters. Note that the query parameters arencase-sensitiven",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        },
+        {
+            "id": "bf122a91e09b295f6b3b45ce4be73983",
+            "name": "Add Account Usage Triggers",
+            "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers",
+            "description": "Creates a new UsageTrigger. Each account can create up to 1,000 UsageTriggers.nCurrently, UsageTriggers that are no longer active are not deleted automatically.nUse DELETE to delete triggers you no longer need.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "The ID for the Twilio account.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "rawModeData": ""
+        }
+    ]
+}
