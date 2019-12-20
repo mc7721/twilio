@@ -1,0 +1,342 @@
+{
+    "id": "37ee49651834235c93d73c4810a0847a",
+    "name": "Twilio Messaging API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "d9be090a3117c903df8f017a43a0b4ab",
+            "name": "Get Message Media",
+            "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}\/Media\/{MediaSid}{mediaTypeExtension}",
+            "description": "Without an extension, the media is returned using the mime-type provided when the media was generated.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "MediaSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.n",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "MessageSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "rawModeData": ""
+        },
+        {
+            "id": "ecb3c4164ad3ee969b73cbb8dfc5c751",
+            "name": "Get Message Media",
+            "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}\/Media{mediaTypeExtension}",
+            "description": "Returns a list of media associated with your message.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.n",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "MessageSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "rawModeData": ""
+        },
+        {
+            "id": "87c8cdb722f78594edc9f1894b0ebf90",
+            "name": "Get Message Media",
+            "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}{mediaTypeExtension}",
+            "description": "Returns a single message specified by the provided {MessageSid}.n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.n",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "MessageSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "rawModeData": ""
+        },
+        {
+            "id": "f70f8e805c0f067a70ca91fe46e3471a",
+            "name": "Get Message Media",
+            "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages{mediaTypeExtension}",
+            "description": "Returns a list of messages associated with your account. The list includes paging information.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.n",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "rawModeData": ""
+        },
+        {
+            "id": "84bdaa1ca3707e5193f4da35093b009c",
+            "name": "Add Message Media",
+            "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages{mediaTypeExtension}",
+            "description": "To send a new outgoing message, make an HTTP POST to your Messages list resource URI",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "By default, Twilios REST API returns XML. You may obtain CSV, JSON or HTML by appending .csv, .json, or .html.n",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "rawModeData": ""
+        },
+        {
+            "id": "f243cd49b81d4efda96fac8e1287985e",
+            "name": "Add Message",
+            "url": "httpapi.twilio.com\/Messages\/",
+            "description": "A Message instance resource represents an inbound or outbound message. When you send an SMS or MMS message via the REST API, use the <Message> verb in TwiML, or someone sends a message to one of your Twilio numbers Twilio creates a Message instance resource.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "AccountSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "ApplicationSid",
+                    "description": "Twilio will POST MessageSid as well as MessageStatus=sent or MessageStatus=failed to the URL in the MessageStatusCallback property of this Application. If the StatusCallback parameter above is also passed, the Applications MessageStatusCallback parameter will take precedence.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Body",
+                    "description": "The text of the message you want to send, limited to 1600 characters.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "From",
+                    "description": "A Twilio phone number enabled for the type of message you wish to send. Only phone numbers or short codes purchased from Twilio work here; you cannot (for example) spoof messages from your own cell phone number.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "MediaUrl",
+                    "description": "The URL of the media you wish to send out with the message. gif , png and jpeg content is currently supported and will be formatted correctly on the recipients device. Other types are also accepted by the API. The media size limit is 5MB. If you wish to send more than one image in the message body, please provide multiple MediaUrls values in the POST request. You may include up to 10 MediaUrls per message.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "StatusCallback",
+                    "description": "A URL that Twilio will POST to each time your message status changes to one of the following: failed, sent, delivered, or undelivered. Twilio will POST the MessageSid along with the other standard request parameters as well as MessageStatus and ErrorCode.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "To",
+                    "description": "The destination phone number. Format with a + and country code e.g., +16175551212 (E.164 format). For To numbers without a +, Twilio will use the same country code as the From number. Twilio will also attempt to handle locally formatted numbers for that country code (e.g. (415) 555-1212 for US, 07400123456 for GB). If you are sending to a different country than the From number, you must include a + and the country code to ensure proper delivery.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "rawModeData": ""
+        },
+        {
+            "id": "e199282ab18ebea05317e91b93efbe51",
+            "name": "Get Message",
+            "url": "httpapi.twilio.com\/Messages\/{MessageSid}\/",
+            "description": "This resource represents an individual SMS or MMS message.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "MessageSid",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "This resource represents an individual SMS or MMS message.",
+                    "description": "The account ID.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "rawModeData": ""
+        }
+    ]
+}
