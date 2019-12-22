@@ -1,5 +1,5 @@
 {
-    "id": "aff6a24211b201283a4a3d89881f461e",
+    "id": "26666516a4f11ec167ea32c301f395f5",
     "name": "Twilio Tokens API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "dfe050f9a724110215f7b4bc1808e07a",
+            "id": "749098a917197982ba099ccd22fd323e",
             "name": "\/Tokense",
             "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Tokens",
             "description": "",
@@ -29,7 +29,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "aff6a24211b201283a4a3d89881f461e",
+            "collectionId": "26666516a4f11ec167ea32c301f395f5",
             "rawModeData": ""
         }
     ]
