@@ -1,5 +1,5 @@
 {
-    "id": "0db0410f32a45f573369c9d35e2fadaa",
+    "id": "1e982b69d931bed9d772d14a6291b5b2",
     "name": "Twilio",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "8f590c49a86e415d540144b282f0c882",
+            "id": "bba82d9976e4c78221821299a0603f3a",
             "name": "Get Acount",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}.{format}",
             "description": "Get Account",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "29f60d27342bd084d176cf7833259b41",
+            "id": "fbfe91b4e8c94dc47bdeec15724dc7b8",
             "name": "Add Account",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}.{format}",
             "description": "Add Account",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "d6096999a3dd1460bd45eca79fbe7178",
+            "id": "5b153555c6e404185af2d33298bec8eb",
             "name": "Update Account",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}.{format}",
             "description": "Update Account",
@@ -120,11 +120,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "0d7cb08426a4be835c589f71d505be8e",
+            "id": "39769380083da9978766d0327fb6c819",
             "name": "Get Accounts",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts.{format}",
             "description": "Get Accounts",
@@ -158,11 +158,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "a71076641a28bf078108e36677e10e7e",
+            "id": "18c272c2b4e0bf29b76e9963f4723a19",
             "name": "Delete Application",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications\/{ApplicationSid}.{format}",
             "description": "Delete Application",
@@ -203,11 +203,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "2de54a86897177f07ac032d4497d4a7b",
+            "id": "2a000d768a182ab86da463a0ab334a1c",
             "name": "Get Application",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications\/{ApplicationSid}.{format}",
             "description": "Get application instance resource.",
@@ -248,11 +248,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "caf35a7a0db3cf4e75c167591f78dbb8",
+            "id": "19dc2c09470ce364ef3d10598f4a5fc8",
             "name": "Add Application",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications\/{ApplicationSid}.{format}",
             "description": "Tries to update the applications properties, and returns the updatednresource representation if successful. The returned response is identicalnto that returned above when making a GET request.n",
@@ -293,11 +293,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "1dadc6f966a88847dcf6cf016fa87180",
+            "id": "319c9bf7741ff5b87c27740b667ff438",
             "name": "Get Applications",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications.{format}",
             "description": "Get Applications",
@@ -331,11 +331,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "67564580bdae9968674b04f4e2fb240e",
+            "id": "df63c2a430a78522bd559bfd8af5dcfb",
             "name": "Add Applications",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Applications.{format}",
             "description": "Add Applications",
@@ -369,11 +369,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "34ae41c0ed2c46a934c08de726a15105",
+            "id": "ffedf3fb8c399b716f1216c5cfd9c967",
             "name": "Get Authorized Connected App",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AuthorizedConnectApps\/{ConnectAppSid}.{format}",
             "description": "Get the properties of the authorized application.",
@@ -414,11 +414,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "68ee17bea40f8c32ed528642ae8870ea",
+            "id": "0f5fe4ab65cfc2517a922897de39e363",
             "name": "Get Authorized Connected Apps",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AuthorizedConnectApps.{format}",
             "description": "Returns a list of Connect App resource representations, each representing anConnect App youve authorized to access your account. The list includesnpaging information.n",
@@ -452,11 +452,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "f9dc50eed5c0d5872f20c4ffa776e3cc",
+            "id": "df373b8d835329ffb127f066c7a871e8",
             "name": "Get Available Local Phone Numbers",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AvailablePhoneNumbers\/{IsoCountryCode}\/Local.{format}",
             "description": "Returns a list of local AvailablePhoneNumber resource representationsnthat match the specified filters, each representing a phone number thanis currently available for provisioning within your account.n",
@@ -497,11 +497,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "e727faf74bb9b58ca27a167d64f67b2b",
+            "id": "563788f3be0488f2d7769520d2b1e5c6",
             "name": "Get Available Mobile Phone Numbers",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AvailablePhoneNumbers\/{IsoCountryCode}\/Mobile.{format}",
             "description": "Returns a list of mobile AvailablePhoneNumber resource representations that match the specified filters, each representing a phone number that is currently available for provisioning within your account.",
@@ -542,11 +542,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "a87b7528394a6c1fc0b749321a42689b",
+            "id": "48d01cd22d224b2991ef5683e8eeee30",
             "name": "Get Available Toll Free Phone Numbers",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/AvailablePhoneNumbers\/{IsoCountryCode}\/TollFree.{format}",
             "description": "Returns a list of toll-free AvailablePhoneNumber elements that match thenspecified filters, each representing a phone number that is currentlynavailable for provisioning within your account. To provision an availablenphone number, POST the number to the IncomingPhoneNumbers resource.n",
@@ -587,11 +587,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "35c346d84ea8feac665ac9bac4413c53",
+            "id": "ff900f18882cdbb492bb004aa36bb579",
             "name": "Get Recordings",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Calls\/{CallSid}\/Recordings.{format}",
             "description": "Returns a list of Recording resource representations, each representing anrecording generated during the course of a phone call.n",
@@ -632,11 +632,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "af6454b632b33aad2b553641b955ea43",
+            "id": "d5c23e7fed89464d6153f7702e2908db",
             "name": "Get Call",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Calls\/{CallSid}.{format}",
             "description": "Get Call",
@@ -677,11 +677,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "596a7b0ab1206b692b450c271151f5fe",
+            "id": "a471a6aafb4588e29a0e0012affe9cc1",
             "name": "Get Calls",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Calls.{format}",
             "description": "Get Calls",
@@ -715,11 +715,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "78879a2f9e025d2f411c0720fae427e7",
+            "id": "e857d13ddf46d6ee8b98ccb6fcedb7e4",
             "name": "Make Call",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Calls.{format}",
             "description": "To make a call, make an HTTP POST request. Initiate a new phone call.",
@@ -753,11 +753,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "93915a680c00a1f1c4b288fa29e6a144",
+            "id": "284bf786e04d98611e09fca7a415ffc4",
             "name": "Delete Conference Call Participants",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}\/Participants\/{CallSid}.{format}",
             "description": "Kick this participant from the conference.",
@@ -805,11 +805,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "ceb54593a5e52094ed84206d789b15f7",
+            "id": "5253c313f8d1abe2a190f055205aa134",
             "name": "Add Conference Call Participants",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}\/Participants\/{CallSid}.{format}",
             "description": "Updates the status of a participant.",
@@ -857,11 +857,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "4ee94cc399c94c37d706f841f7a3c132",
+            "id": "7bfe180c3ea0a7de6a367a616224eeba",
             "name": "GetParticipantForConference",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}\/Participants\/{CallSid}.{format}",
             "description": "GetParticipantForConference",
@@ -909,11 +909,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "c63224944855b16b259b6a1ad53902ed",
+            "id": "08c3dbcb7515ecc690cf4e2ccb05c955",
             "name": "Get Conference Call Participants",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}\/Participants.{format}",
             "description": "Returns the list of participants in the conference identified byn{ConferenceSid}.n",
@@ -954,11 +954,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "7aab6aa2e3a527812113790adccd02af",
+            "id": "5de09d74b7f4d8d07edeba15b581a633",
             "name": "Get Conference Calls",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences.{format}",
             "description": "Returns a list of conferences within an account. The list includes pagingninformation.n",
@@ -992,11 +992,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "59f59524a78085c09a2262b6fefc43b1",
+            "id": "f2579914d0f4ff1fa7edbe73fd8884e2",
             "name": "Get Conference",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Conferences\/{ConferenceSid}.{format}",
             "description": "Get Conference",
@@ -1037,11 +1037,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "ad2441b438882f295f23530a571b1356",
+            "id": "75169572960ade8ae34b62aa675a37a9",
             "name": "Get Connected App",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/ConnectApps\/{ConnectAppSid}.{format}",
             "description": "Get the properties of a Connect App.",
@@ -1082,11 +1082,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "35f6aaee0c3fb6c9643d1636e637316f",
+            "id": "d75bb2eb5eb7727033dc12b1062208c0",
             "name": "Add Connected App",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/ConnectApps\/{ConnectAppSid}.{format}",
             "description": "Tries to update the Connect Apps properties, and returns the updatednresource representation if successful. The returned response is identicalnto that returned above when making a GET request.n",
@@ -1127,11 +1127,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "d9582766fedef6c0e92d463be824a152",
+            "id": "3e297b2a9bdf8f82e71f1757a6d5bba2",
             "name": "Get Connected Apps",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/ConnectApps.{format}",
             "description": "Returns a list of Connect App resource representations, each representingna Connect App in your account. The list includes paging information.n",
@@ -1165,11 +1165,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "2960c422126e8c464e5267be2611ee21",
+            "id": "267e7a705ab6086ea78b9f20a03075e3",
             "name": "Get Incoming Local Phone Numbers",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/Local.{format}",
             "description": "Returns a list of local <IncomingPhoneNumber> elements, each representing a local (not toll-free) phone number given to your account, under an <IncomingPhoneNumbers> list element that includes paging information. Works exactly the same as the IncomingPhoneNumber resource, but filters out toll-free numbers.",
@@ -1203,11 +1203,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "d6d45355bb2de92c49d2510c8be7d4d2",
+            "id": "2ee98653687637ac78cdb3f91f8fde25",
             "name": "Add Incoming Local Phone Numbers",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/Local.{format}",
             "description": "Adds a new phone number to your account. If a phone number is found for your request, Twilio will add it to your account and bill you for the first months cost of the phone number. ",
@@ -1241,11 +1241,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "fcc7bd968bd17d0118d38a9f1ed24776",
+            "id": "784e135f3d5e0739d1369b5fc5311fff",
             "name": "Get Incoming Phone Numbers",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/Mobile.{format}",
             "description": "Returns a list of local <IncomingPhoneNumber> elements, each representing a mobile phone number given to your account, under an <IncomingPhoneNumbers> list element that includes paging information. Works exactly the same as the IncomingPhoneNumber resource, but filters out local and toll free numbers.",
@@ -1279,11 +1279,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "13e7aa0a9ab894d95a0926257318cf76",
+            "id": "b5aa32f7869f9c958b865601c3fd2b81",
             "name": "Delete Incoming Phone Number",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/{IncomingPhoneNumberSid}.{format}",
             "description": "Release this phone number from your account. Twilio will no longer answerncalls to this number, and you will stop being billed the monthly phonennumber fee. The phone number will eventually be recycled and potentiallyngiven to another customer, so use with care. If you make a mistake, contacnus. We may be able to give you the number back.n",
@@ -1324,11 +1324,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "f75adcd253da0a722173140b4ba71f4b",
+            "id": "cecc1da22527084ad091ef3b09b4fc01",
             "name": "Get Incoming Phone Number",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/{IncomingPhoneNumberSid}.{format}",
             "description": "Get info about incoming calls phone number.",
@@ -1369,11 +1369,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "c35477f02bfbaebebbf68385404f90f1",
+            "id": "82a3badfe7b6a3dca2c670b1a54079fa",
             "name": "Add Incoming Phone Number",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/{IncomingPhoneNumberSid}.{format}",
             "description": "Tries to update the incoming phone numbers properties, and returns thenupdated resource representation if successful. The returned response isnidentical to that returned above when making a GET request.n",
@@ -1414,11 +1414,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "ed82c7bc5796163ac732acba94960f65",
+            "id": "31ab673dbe956299ccd680e466c4bbaf",
             "name": "Update Incoming Phone Number",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/IncomingPhoneNumbers\/{IncomingPhoneNumberSid}.{format}",
             "description": "Tries to update the incoming phone numbers properties, and returns thenupdated resource representation if successful. The returned response isnidentical to that returned above when making a GET request.n",
@@ -1459,11 +1459,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "6bb3d07f511d4f3237dda09e87eec9c6",
+            "id": "68acf6f948127e3333c32a9213caf1fa",
             "name": "Get Message Media",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}\/Media\/{MediaSid}",
             "description": "Without an extension, the media is returned using the mime-type provided when the media was generated.",
@@ -1504,11 +1504,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "bd2cd0b7aa6e60c4553af700611c62e9",
+            "id": "76c8d5bd9b447f4faec4a670f5561829",
             "name": "Get Message Media",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}\/Media",
             "description": "Returns a list of media associated with your message.",
@@ -1542,11 +1542,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "96042506ef34421959b2cdfb2e016fb3",
+            "id": "3496c8b8542d7886a843c6db55fcae8b",
             "name": "Get Message Media",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}",
             "description": "Returns a single message specified by the provided {MessageSid}.n",
@@ -1580,11 +1580,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "17d0ebdb6bc942bc6ae9678eb130dcd3",
+            "id": "997c0589878943a6f47b5c9986c89a80",
             "name": "Get Message Media",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages.{format}",
             "description": "Returns a list of messages associated with your account. The list includes paging information.",
@@ -1618,11 +1618,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "5c90625be67bcc2a953e8f2d63303981",
+            "id": "57e906e6d33d4288e5a5a5562212b8b6",
             "name": "Add Message",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Messages.{format}",
             "description": "To send a new outgoing message, make an HTTP POST to your Messages list resource URI",
@@ -1656,11 +1656,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "ff9450c18d1b4f6857b2d3162768ffb3",
+            "id": "3382edfd019dbdc718ed060e920ccc4c",
             "name": "Get Outgoing Caller Ids",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds\/{OutgoingCallerIdSid}",
             "description": "Get the set of an accounts verified phone numbers.",
@@ -1694,11 +1694,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "1f1daf73a3ef26019b2a88b627058d50",
+            "id": "7c6e6da63ab269df1bce83817427e643",
             "name": "Add Outgoing Caller Id",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds\/{OutgoingCallerIdSid}",
             "description": "Updates the caller id, and returns the updated resource if successful.",
@@ -1732,11 +1732,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "0c7404b35e6f2a0ab80d8f8b360e043f",
+            "id": "803d2894f657f646cc9d74e49782fe23",
             "name": "Update Outgoing Caller Id",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds\/{OutgoingCallerIdSid}",
             "description": "Updates the caller id, and returns the updated resource if successful.",
@@ -1770,11 +1770,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "f337f312daf2a9d9e47afbd47b36011f",
+            "id": "02a3295dfe3f7960453cfc502ae23f89",
             "name": "Delete Outgoing Caller ID",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds\/{OutgoingCallerIdSid}",
             "description": "DeleteOutgoingCallerId",
@@ -1815,11 +1815,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "edfd67b9ddf43d9835f93439859f2032",
+            "id": "1ec3de37a813be8bd6c2e3430c9af1a6",
             "name": "Get Outgoing Caller Ids",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds",
             "description": "Returns a list of OutgoingCallerId resource representations, each representingna Caller ID number valid for an account. The list includes paging information.n",
@@ -1846,11 +1846,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "b920d6cbc5df2e301d68685fc2509ed5",
+            "id": "f7ca0f4aa1cf308ec1f1298bd556c092",
             "name": "Add Outgoing Caller Id",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/OutgoingCallerIds",
             "description": "Adds a new CallerID to your account.",
@@ -1877,11 +1877,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "9c51ec746d42271d24eccc09eb1ac521",
+            "id": "bd4bdc1300df6e2125ff32ba16a35551",
             "name": "Get Queue Members In Front",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members\/Front",
             "description": "Get a front member.",
@@ -1915,11 +1915,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "f5418d6757c47af8695f8fa75edbb204",
+            "id": "6e7b928cc1fb53076690ceb8b6c7be2b",
             "name": "Update Queue Members In Front",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members\/Front",
             "description": "Posting a URL and Method to a Queue instance will dequeue a member from anqueue and have the members call begin executing the TwiML document at that URLnWhen dequeuing the Front of the queue, the next call in the queue will be redirected.n",
@@ -1953,11 +1953,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "f60cf426ed32ae76ef6a5cc75b6a8e97",
+            "id": "eff6da5d254546b4131c94402fc1d8d3",
             "name": "Get Queue Members",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members\/{CallSid}",
             "description": "Get a specific member.",
@@ -1998,11 +1998,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "55e900397d9157361313fb5abc8fe19b",
+            "id": "bdbaa0c4c9e353395922a611aa11594b",
             "name": "Update Queue Members",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members\/{CallSid}",
             "description": "Posting a URL and Method to a Queue instance will dequeue a member from anqueue and have the members call begin executing the TwiML document at that URLnWhen redirecting a member of a queue addressed by CallSid, only the first requestnwill succeed and return a 200 response code. A second request will fail andnreturn an appropriate 400 response code.n",
@@ -2043,11 +2043,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "f9e0290e2459522effa0c0918ae82ff1",
+            "id": "15efe0a76fe59c4b8717d598f8a0556b",
             "name": "Get Queue Members",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}\/Members",
             "description": "Returns the list of members in the queue identified by {QueueSid}.",
@@ -2081,11 +2081,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "ea74f4f154781b32ea1fe8fc71b8bfb8",
+            "id": "a333061fa738a0c298680b4a65517c3b",
             "name": "Delete Queue Members",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}",
             "description": "The DELETE method allows you to remove a Queue. Only empty queues arendeletable.n",
@@ -2119,11 +2119,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "d728bf03363cd9836b53517874e62b6c",
+            "id": "6012dc35ea60ea249283b449b2e1c67b",
             "name": "Get Queue Members",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}",
             "description": "Get resources individual Queue instance.n",
@@ -2157,11 +2157,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "2bb02835d3d890d049c295066b5a5dec",
+            "id": "917b487b8c9d50e6e004ee44250dc194",
             "name": "Add Queue Members",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues\/{QueueSid}",
             "description": "This POST request allows you to change the FriendlyName or MaxSize.n",
@@ -2195,11 +2195,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "fd6241d1e820b10ebf789f5196758b99",
+            "id": "482fd9cd75d54539c695aee94de7cb00",
             "name": "Get Queues",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues",
             "description": "Returns a list of queues within an account. The list includes pagingninformation.n",
@@ -2226,11 +2226,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "3d4ddd894092f49ef10f633b8e66d4f6",
+            "id": "af8dc532d2cd947036151f23376b7c97",
             "name": "Add Queue",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Queues",
             "description": "Create a new Queue resource.n",
@@ -2257,11 +2257,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "c2d02aa86720595f561166f66ae57533",
+            "id": "a1adf00ba7b9d50bbbd1114d03d2fdf7",
             "name": "Get Recording Transcriptions",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Recordings\/{RecordingSid}\/Transcriptions",
             "description": "Returns a set of Transcription resource representations that includes pagingninformation.n",
@@ -2295,11 +2295,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "669d3e33a002a6aa2240764a6163dc6f",
+            "id": "02c714c17e4b221eb4e2c826827c16a9",
             "name": "Delete Recording",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Recordings\/{RecordingSid}",
             "description": "Deletes a recording  from your account.",
@@ -2333,11 +2333,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "7cb254c87c0b238a1729973535c8c2d5",
+            "id": "2cfcb95280a547461777fe68bfe998e0",
             "name": "Get Recording",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Recordings\/{RecordingSid}",
             "description": "Returns one of several representations:nWithout an extension, or with a .wav, a binary WAV audio file is returnednwith mime-type audio\/x-wav.nAppending .mp3 to the URI returns a binary MP3 audio file with mime-typentype audio\/mpeg.nAppending .xml to the URI returns a XML representation.n",
@@ -2371,11 +2371,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "29dfa11fe838579025519ca08148dbdb",
+            "id": "a3b2495ad26084c96c0bb5e91bb83ccb",
             "name": "Get Recordings",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Recordings",
             "description": "Returns a list of Recording resource representations, each representing anrecording generated during the course of a phone call.n",
@@ -2402,11 +2402,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "ba9a6c1d044096af69dbf29f8b5c1af3",
+            "id": "0c5891f62cd19595fdb35d21fbfdd6e9",
             "name": "Delete SIP Credential From List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials\/{CredentialSid}",
             "description": "Remove a Credential from a CredentialList.",
@@ -2447,11 +2447,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "c48aa1e3b6133e76927a88521aa604f8",
+            "id": "807c27054cdbc63c7dadc3733ea1880a",
             "name": "Get SIP Credentials List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials\/{CredentialSid}",
             "description": "Get a specific Credential in a list. Though a password is stored for each username in your list, the password is not returned to protect your password. If you cannot remember your password, you will need to POST to this resource to update it.",
@@ -2492,11 +2492,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "b33114e7e59b1eeb9daf0f161e88c698",
+            "id": "8e21ea0ca7ff2507c24dd2c837d63416",
             "name": "Add To SIP Credentials List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials\/{CredentialSid}",
             "description": "Change the password of a Credential record.nnIf the change is successful, Twilio will respond with the Credential record but will not include the password in the response.n",
@@ -2537,11 +2537,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "33e5fb935ef6a73b9039b8d993254d1d",
+            "id": "2ced5331e5f6a6856a9239f5f90a11a0",
             "name": "Get SIP Credentials List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials",
             "description": "Get the list of Credentials in a CredentialList. The passwords for the Credentials are intentionally not returned so as to protect them.",
@@ -2575,11 +2575,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "dcec123b9ec9a46847b932ee3d94e5e4",
+            "id": "9869a937a2ed0d82243a8babe5c65d3e",
             "name": "Get SIP Credentials List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}\/Credentials",
             "description": "Add a Credential to the CredentialList.nnWhen creating a Credential, you will POST both a username and password, but only receive the username back in the response. The password is intentionally not returned so as to protect it.n",
@@ -2613,11 +2613,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "5cc4f35d5544e7d16fa3c0f9a0e84b5f",
+            "id": "769259a17bc41ed8b80e0b9ca4028ccc",
             "name": "Delete SIP Credential List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}",
             "description": "Delete a CredentialList from your account. It can only be deleted if no domains are mapped to it. If you attempt to delete one that is mapped to a domain, you will receive an error.",
@@ -2651,11 +2651,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "8e0aada9d6485dd7c87b647499f9eb74",
+            "id": "81dfa6f02698dd1c25c15ba876ac170a",
             "name": "Get SIP Credentials List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}",
             "description": "Get a credential list instance resource",
@@ -2689,11 +2689,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "b42eab3266d5b8d499e84075b28d6d12",
+            "id": "746a134925b92aa3dccd196e176d7d97",
             "name": "Add SIP Credentials List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists\/{CLSid}",
             "description": "Change the FriendlyName of the list",
@@ -2727,11 +2727,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "6aa5a9692c86e5725e1848e774d878f4",
+            "id": "2bc9268d45c73883e86f64ee92317b63",
             "name": "Get SIP Credentials List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists",
             "description": "Gets a list of Credential Lists for an account",
@@ -2758,11 +2758,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "dfd907dcf541c7c5951fd92f3c42fa51",
+            "id": "3f18206dd27abd97256ed46841b4af94",
             "name": "Get SIP Credentials List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/CredentialLists",
             "description": "Create a new Credential List.",
@@ -2789,11 +2789,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "2b6c6a25a5bdae85b03abe829424fcf0",
+            "id": "76cc961eb491c6bac4fdb2eed9cbf508",
             "name": "Delete Domains Credentials",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/CredentialListMappings\/{CLSid}",
             "description": "Remove a CredentialListMapping from a domain",
@@ -2834,11 +2834,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "f9cffd7d52fec539449db18274be16d9",
+            "id": "2e03cf1216a49cdc816cf4ab05857f63",
             "name": "Get Domains Credentials",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/CredentialListMappings",
             "description": "Get the user lists mapped to this domain.",
@@ -2872,11 +2872,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "c80ce1f5c294713dcd6004c918f6beae",
+            "id": "c8cb95b375d27fe6770cbca10808475d",
             "name": "Add Domains Credentials",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/CredentialListMappings",
             "description": "Map a CredentialList to the domain.",
@@ -2910,11 +2910,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "77865072ca530f6510e5fd86410bddbe",
+            "id": "72b4fc03ba55a280c1ddad595f3d47a8",
             "name": "Delete Domains Credentials",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/IpAccessControlListMappings\/{ALSid}",
             "description": "Remove a mapping from this domain.",
@@ -2955,11 +2955,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "d41aa2aebfa4b8720e07b268c8f77eaa",
+            "id": "a0e81216ec30915a7afac2d20247bec2",
             "name": "Get Domains IP Access Control List Mappings",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/IpAccessControlListMappings\/{ALSid}",
             "description": "Return a specific IpAccessControlListMapping instance by Sid.",
@@ -3000,11 +3000,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "80d50d22c8741f23a34a410263e8f666",
+            "id": "0ebd84c542f5be22e93b29cf4f404570",
             "name": "Get Domains IP Access Control List Mapping",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/IpAccessControlListMappings",
             "description": "Return the IpAccessControlListMappings that are associated to this domain.",
@@ -3038,11 +3038,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "f235299d68a994b06fe7314349983ce9",
+            "id": "072ca781a344a923a882a6990456fbeb",
             "name": "Add Domains IP Access Control List Mappings",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}\/IpAccessControlListMappings",
             "description": "Map an IpAccessControlList to this domain.",
@@ -3076,11 +3076,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "a111369fe1c1b959664af98b4a2ac756",
+            "id": "5fbc2c3ad05a428d601d7a0d50221daf",
             "name": "Delete Domains IP Access Control List Mappings",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}",
             "description": "Delete a domain. If you have created subdomains of a domain, you will not be able to delete the domain until you first delete all subdomains of it.",
@@ -3114,11 +3114,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "cee93ece9a2fa6a43c4d975a12b284e6",
+            "id": "afa8b441e349fbcda296ef82dbb0047e",
             "name": "Get Domains",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}",
             "description": "Return a specific instance by Sid.",
@@ -3152,11 +3152,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "4db3e9dbcd3bbb36babc50604ad94af7",
+            "id": "fcce88df30aa2f5f7e81f6c5424b3b87",
             "name": "Add Domains",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains\/{SipDomainSid}",
             "description": "Update the attributes of a domain.",
@@ -3190,11 +3190,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "29ce76601a3321bf103a143592670b8a",
+            "id": "5d2ce61fe163f80a7c3ae1e829fefe55",
             "name": "Get Domains",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains",
             "description": "Returns a paged list of the domains for an account.",
@@ -3221,11 +3221,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "d51dc0c8539d01e5691da594ec54b9d0",
+            "id": "556034e3b2324d45dcc277840dfd3fb5",
             "name": "Add Domains",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/Domains",
             "description": "Creates a new Domain and returns its instance resource. You must pick a unique domain name that ends in .sip.twilio.com.nAfter creating a Domain, you must map it to an authentication method before the domain is ready to receive traffic.n",
@@ -3252,11 +3252,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "4efcac11059df0d8944c8986595a0772",
+            "id": "8733cd3934c23a4b9881dda910abdb36",
             "name": "Delete SIP IP Access Control List IP Address",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses\/{IpAddressSid}",
             "description": "Deletes an IP address entry from the list.",
@@ -3297,11 +3297,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "99c4787bfb67bfada43072e264554d12",
+            "id": "4643b228d5882724f3a4aefabec75394",
             "name": "Get SIP IP Access Control List IP Address",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses\/{IpAddressSid}",
             "description": "Return a single IP Address resource.",
@@ -3342,11 +3342,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "b6d9d9282ce472feccc68cf704f0a3eb",
+            "id": "4588598de5ef8cf1c47f97d92ced4fc7",
             "name": "Add SIP IP Access Control List IP Address",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses\/{IpAddressSid}",
             "description": "Change the description or IP address of a given IpAddress instance resource",
@@ -3387,11 +3387,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "fa4d1e56b68f170412973f8e0e5c7a99",
+            "id": "6cb10768ccd01c012af0e30b3aa491da",
             "name": "Get SIP IP Access Control List IP Address",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses",
             "description": "List the IP Addresses contained in this list.",
@@ -3425,11 +3425,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "2a44481a73231368a6a379e8628a4dc2",
+            "id": "2079741bc2eb246c993be897b051a5cc",
             "name": "Add SIP IP Access Control List IP Address",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}\/IpAddresses",
             "description": "Add an IP Address to the list with a description.",
@@ -3463,11 +3463,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "0609d02bbac0eb62491ea48023d31f72",
+            "id": "3ada21761550f9d491098e6cb9b9dc1e",
             "name": "Delete SIP IP Access Control List IP Address",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}",
             "description": "Delete an IpAccessControlList from your account. It can only be deleted if no domains are mapped to it. If you attempt to delete one that is mapped to a domain, you will receive an error.",
@@ -3501,11 +3501,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "a911adb1396d203bbf27fe1d8073eaf7",
+            "id": "e076472ce4f66d059e6fdf7f17a51c75",
             "name": "Get SIP IP Access Control List IP Address",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}",
             "description": "Return a specific IpAccessControlList resource.",
@@ -3539,11 +3539,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "ec74269f0fb4f50558d1e78d7af5bbfe",
+            "id": "43ed4104d5574a9fd991a3b9777ef0e0",
             "name": "Add SIP IP Access Control List IP Address",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists\/{IpAccessControlListSid}",
             "description": "Rename an IpAccessControlList.",
@@ -3577,11 +3577,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "9c63cc354ee6f300cd9bd4712cc7c47e",
+            "id": "6d6e10ffb47e8539f520d8cee77e3387",
             "name": "Get SIP IP Access Control List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists",
             "description": "Return a paged list of all IpAccessControlLists under this account.",
@@ -3608,11 +3608,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "7f072d93e7e0436e07b4fb11b3a7fe5c",
+            "id": "2b5e531df389c7a053cfcd604067f085",
             "name": "Add SIP IP Access Control List",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SIP\/IpAccessControlLists",
             "description": "Create a new IpAccessControlList resource.nnWhen created, the list will contain no IP addresses. You will need to add IP addresses to the list for it to be active. To add IP addresses, you will need to POST to the IpAddresses List subresource.n",
@@ -3639,11 +3639,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "e8c4c0d5458668548e218b936e6ba34f",
+            "id": "59e5223d7d0efd71fd36252e74b7ef22",
             "name": "Get SMS Short Code Media",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/ShortCodes\/{ShortCodeSid}",
             "description": "Get a single message.",
@@ -3677,11 +3677,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "7ca77bd2427156e2a48686b22162dbad",
+            "id": "f37243c281790648178981c1028ed8fc",
             "name": "Add SMS Short Code Media",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/ShortCodes\/{ShortCodeSid}",
             "description": "Tries to update the shortcodes properties, and returns the updatednresource representation if successful.n",
@@ -3715,11 +3715,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "e219cdc7372fff8e14b574935f67adb0",
+            "id": "82dbe0884380d720df39caab09e755c2",
             "name": "Get SMS Short Code Media",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/ShortCodes",
             "description": "Returns a list of ShortCode resource representations, each representing anshort code within your account. The list includes paging information.n",
@@ -3746,11 +3746,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "fe14e4d01bdcad15060d80d486e3f13c",
+            "id": "53f9ff9c678ae4829f61510379ee59c0",
             "name": "GetSMSList",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/Messages.{format}",
             "description": "GetSMSList",
@@ -3784,11 +3784,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "60f105d2ba1b807026f32a4f81fb60ce",
+            "id": "04a2404426ce081b353e44bf3be9aafb",
             "name": "SendSMS",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/Messages.{format}",
             "description": "SendSMS",
@@ -3822,11 +3822,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "a4d556ee0e58cae56b79e52605e62c8a",
+            "id": "bc8a32ca2035712a74969e60ed012537",
             "name": "GetSMS",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/SMS\/Messages\/{SMSMessageSid}.{format}",
             "description": "GetSMS",
@@ -3867,11 +3867,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "10e7e489e09f2fb54d9d81ef7c1eeb2d",
+            "id": "e5adb4e2a9e37ce27496430db82fb441",
             "name": "Delete Transcription",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions\/{TranscriptionSid}",
             "description": "Deletes a transcription from your account.",
@@ -3905,11 +3905,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "68ae83005b50ea09fdcecab12adc4fa4",
+            "id": "eb50d7b266ff7bb8d0559d36565f6710",
             "name": "Get Transcription",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions\/{TranscriptionSid}",
             "description": "Returns a single Transcription resource representation identified by thengiven {TranscriptionSid}. By default Twilio will respond with the XML metadata for the Transcription. If you append .txt to the end of the Transcription resources URI Twilio will just return you the transcription tex.n",
@@ -3943,11 +3943,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "77dfd267ec6d3744141ebd8c4d0e5b4f",
+            "id": "e98502c16da57c33eba3ade7ab21d6a7",
             "name": "Get Transcriptions",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions",
             "description": "Returns a set of Transcription resource representations that includes pagingninformation.n",
@@ -3974,11 +3974,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "9ec3a74c0d1d3e849bf8ff6809ba87c5",
+            "id": "225323942481ad11ba342bb04613e3a4",
             "name": "GetTranscriptionList",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions.{format}",
             "description": "GetTranscriptionList",
@@ -4012,11 +4012,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "84de4a65c523cf9fe6b59be07ef1fa3e",
+            "id": "10514083f5f6d02fcecda0d49d47542c",
             "name": "GetTranscription",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Transcriptions\/{TranscriptionSid}.{format}",
             "description": "GetTranscription",
@@ -4057,11 +4057,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "dac47029a9d4922d92cd30e65290d7db",
+            "id": "2a6216c8bc83e4f86cbb6b9601c3eed4",
             "name": "Get Account Usage Record Sub Resource",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Records\/{Subresource}",
             "description": "Returns UsageRecords for all usage categories for a specified period.n",
@@ -4095,11 +4095,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "cce3c859e0ac86ba0b4cddc69c2de098",
+            "id": "44567f711ed63697a0b0b397432611a3",
             "name": "Get Account Usage Record",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Records",
             "description": "Returns UsageRecords for all usage categories. The list includes pagingninformation.nBy default, the UsageRecords resource will return one UsageRecord forneach Category, representing all usage accrued all-time for the account.nYou can filter the usage Category or change the date-range over which usagenis counted using optional GET query parameters.n",
@@ -4126,11 +4126,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "a5df597f77b4121513ce40197936c6be",
+            "id": "987bb72908aa44e58b91362024e3392d",
             "name": "Delete Account Usage Trigger",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers\/{UsageTriggerSid}",
             "description": "Delete this UsageTrigger.",
@@ -4164,11 +4164,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "f05331c2835d2a7fc4501f972ce31c00",
+            "id": "c9d6ce5be33841e59bb1cf6c15140798",
             "name": "Get Account Usage Trigger",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers\/{UsageTriggerSid}",
             "description": "Returns a repesentation of the UsageTrigger.",
@@ -4202,11 +4202,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "58f4636f077a5ac609200ae924eacb88",
+            "id": "1f70c653f8194d91b307c17e985d9f76",
             "name": "Add Account Usage Trigger",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers\/{UsageTriggerSid}",
             "description": "Tries to update the UsageTriggers properties, and returns the updatednresource representation if successful.n",
@@ -4240,11 +4240,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "b31ffbed03fc9145f6bc3419957bae7d",
+            "id": "a29157045f09f6c15269d57130b06034",
             "name": "Get Account Usage Triggers",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers",
             "description": "Returns a list of UsageTrigger resource representations. The list includesnpaging information.nBy default, all UsageTriggers are returned. You can filter the list bynspecifying one or more query parameters. Note that the query parameters arencase-sensitiven",
@@ -4271,11 +4271,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         },
         {
-            "id": "bf122a91e09b295f6b3b45ce4be73983",
+            "id": "690feb4626d63db54a26682c90a4eb90",
             "name": "Add Account Usage Triggers",
             "url": "httpsapi.twilio.com\/2010-04-01\/\/Accounts\/{AccountSid}\/Usage\/Triggers",
             "description": "Creates a new UsageTrigger. Each account can create up to 1,000 UsageTriggers.nCurrently, UsageTriggers that are no longer active are not deleted automatically.nUse DELETE to delete triggers you no longer need.n",
@@ -4302,7 +4302,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0db0410f32a45f573369c9d35e2fadaa",
+            "collectionId": "1e982b69d931bed9d772d14a6291b5b2",
             "rawModeData": ""
         }
     ]
