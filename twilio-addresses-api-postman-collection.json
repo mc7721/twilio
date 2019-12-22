@@ -1,5 +1,5 @@
 {
-    "id": "6344e9ce9203c36190000f940e0d328b",
+    "id": "a21ef9f1989c869e542f1091edf83b55",
     "name": "Twilio Addresses API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "ce4bab0064ac2e90d9eac36778d2dcd9",
+            "id": "fe0a1a23e2f319e9b6ee41587db9ea84",
             "name": "Get Address",
             "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Addresses\/{AddressSid}",
             "description": "",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6344e9ce9203c36190000f940e0d328b",
+            "collectionId": "a21ef9f1989c869e542f1091edf83b55",
             "rawModeData": ""
         },
         {
-            "id": "9aaa564f54bcc5d34318052f46b4d573",
+            "id": "ba36a4735f56299f988b6fff9ea908b1",
             "name": "Get Address",
             "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Address",
             "description": "",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6344e9ce9203c36190000f940e0d328b",
+            "collectionId": "a21ef9f1989c869e542f1091edf83b55",
             "rawModeData": ""
         },
         {
-            "id": "2f40d7f3306e8a879c79d92efb955b8f",
+            "id": "b210b7837ba3f3243dc54caeb97fd5c5",
             "name": "Get Address",
             "url": "http:\/\/api.twilio.com\/Accounts\/{AccountSid}\/\/Addresses\/{AddressSid}\/DependentPhoneNumbers",
             "description": "",
@@ -75,7 +75,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6344e9ce9203c36190000f940e0d328b",
+            "collectionId": "a21ef9f1989c869e542f1091edf83b55",
             "rawModeData": ""
         }
     ]
