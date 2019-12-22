@@ -15,8 +15,8 @@
         "telecommunications",
         "webhook implementations"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -30,7 +30,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-usage-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-usage-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -38,7 +38,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-usage-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-usage-api-postman-collection.json"
                 }
             ]
         },
@@ -52,7 +52,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -60,7 +60,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-postman-collection.json"
                 }
             ]
         },
@@ -74,7 +74,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-tokens-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-tokens-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -82,7 +82,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-tokens-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-tokens-api-postman-collection.json"
                 }
             ]
         },
@@ -96,7 +96,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-addresses-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-addresses-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -104,7 +104,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-addresses-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-addresses-api-postman-collection.json"
                 }
             ]
         },
@@ -118,7 +118,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-call-feedback-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-call-feedback-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -126,7 +126,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-call-feedback-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-call-feedback-api-postman-collection.json"
                 }
             ]
         },
@@ -140,7 +140,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-recordings-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-recordings-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -148,7 +148,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-recordings-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-recordings-api-postman-collection.json"
                 }
             ]
         },
@@ -162,7 +162,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-messaging-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-messaging-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -170,7 +170,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-messaging-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-messaging-api-postman-collection.json"
                 }
             ]
         },
@@ -184,7 +184,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-sip-credential-lists-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-sip-credential-lists-api-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -192,13 +192,17 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/twilio-sip-credential-lists-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/twilio\/master\/twilio-sip-credential-lists-api-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": ".NET Library",
             "url": "https:\/\/www.twilio.com\/docs\/csharp\/install"
