@@ -1,5 +1,5 @@
 {
-    "id": "37ee49651834235c93d73c4810a0847a",
+    "id": "9b8fd9cda384d4c31709d66f689937e6",
     "name": "Twilio Messaging API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "d9be090a3117c903df8f017a43a0b4ab",
+            "id": "5008cd7e5b5535ec060481cdecbc1ffd",
             "name": "Get Message Media",
             "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}\/Media\/{MediaSid}{mediaTypeExtension}",
             "description": "Without an extension, the media is returned using the mime-type provided when the media was generated.",
@@ -58,11 +58,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "collectionId": "9b8fd9cda384d4c31709d66f689937e6",
             "rawModeData": ""
         },
         {
-            "id": "ecb3c4164ad3ee969b73cbb8dfc5c751",
+            "id": "8e9995737b1484376bb8be2090c35e92",
             "name": "Get Message Media",
             "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}\/Media{mediaTypeExtension}",
             "description": "Returns a list of media associated with your message.",
@@ -103,11 +103,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "collectionId": "9b8fd9cda384d4c31709d66f689937e6",
             "rawModeData": ""
         },
         {
-            "id": "87c8cdb722f78594edc9f1894b0ebf90",
+            "id": "5369c2051364cd73fafd48a90d0c2d88",
             "name": "Get Message Media",
             "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages\/{MessageSid}{mediaTypeExtension}",
             "description": "Returns a single message specified by the provided {MessageSid}.n",
@@ -148,11 +148,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "collectionId": "9b8fd9cda384d4c31709d66f689937e6",
             "rawModeData": ""
         },
         {
-            "id": "f70f8e805c0f067a70ca91fe46e3471a",
+            "id": "a74a4d9c18f8e496eabc05185fda7dd2",
             "name": "Get Message Media",
             "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages{mediaTypeExtension}",
             "description": "Returns a list of messages associated with your account. The list includes paging information.",
@@ -186,11 +186,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "collectionId": "9b8fd9cda384d4c31709d66f689937e6",
             "rawModeData": ""
         },
         {
-            "id": "84bdaa1ca3707e5193f4da35093b009c",
+            "id": "f9153956d2c3f8ad7af68e0b948a30fe",
             "name": "Add Message Media",
             "url": "httpapi.twilio.com\/\/Accounts\/{AccountSid}\/Messages{mediaTypeExtension}",
             "description": "To send a new outgoing message, make an HTTP POST to your Messages list resource URI",
@@ -224,11 +224,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "collectionId": "9b8fd9cda384d4c31709d66f689937e6",
             "rawModeData": ""
         },
         {
-            "id": "f243cd49b81d4efda96fac8e1287985e",
+            "id": "93bf099a8d59302abfceefcef643e0e8",
             "name": "Add Message",
             "url": "httpapi.twilio.com\/Messages\/",
             "description": "A Message instance resource represents an inbound or outbound message. When you send an SMS or MMS message via the REST API, use the <Message> verb in TwiML, or someone sends a message to one of your Twilio numbers Twilio creates a Message instance resource.",
@@ -297,11 +297,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "collectionId": "9b8fd9cda384d4c31709d66f689937e6",
             "rawModeData": ""
         },
         {
-            "id": "e199282ab18ebea05317e91b93efbe51",
+            "id": "fc6e2fdcf352d844842e423d9bd31105",
             "name": "Get Message",
             "url": "httpapi.twilio.com\/Messages\/{MessageSid}\/",
             "description": "This resource represents an individual SMS or MMS message.",
@@ -335,7 +335,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "37ee49651834235c93d73c4810a0847a",
+            "collectionId": "9b8fd9cda384d4c31709d66f689937e6",
             "rawModeData": ""
         }
     ]
